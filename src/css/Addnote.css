@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    
+    
+}
+
+.mainconadd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainconadd .inputtitle {
+    width: 51rem;
+    height: 2.5rem;
+    padding-left: 0.2rem;
+    outline-color: #3361cc;
+}
+
+.mainconadd .textarea {
+    width: 51rem;
+    height: 15rem;
+    padding-left: 0.2rem;
+    outline-color: #3361cc;
+    padding-top: 0.2rem;
+    
+}
+.textcolor{
+    width: 51rem;
+    height: 4rem;
+    border: 1px solid black;
+    margin-top: -2rem;
+    border-top-width: 0;
+}
+.backgroundcolor{
+    width: 51rem;
+    height: 4rem;
+    border: 1px solid black;
+    margin-top: 0rem;
+    border-top-width: 0;
+}
+.colornumbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.colornumbers div{
+    border-radius: 4rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -6px;
+}
+.addbtn{
+    width: 9rem;
+    height: 2.3rem;
+    background-color: #3361cc;
+    color: white;
+    padding-top: 0.3rem;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    border: 0;
+}
+@media only screen and (max-width: 768px) {
+    .mainconadd .inputtitle {
+        width: 43rem;
+    }
+
+    .mainconadd .textarea {
+        width: 43rem;
+    }
+    .textcolor{
+        width: 43rem;
+    }
+    .backgroundcolor{
+        width: 43rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .mainconadd .inputtitle {
+        width: 22rem;
+    }
+
+    .mainconadd .textarea {
+        width: 22rem;
+    }
+    .textcolor{
+        width: 22rem;
+    }
+    .backgroundcolor{
+        width: 22rem;
+    }
+    .colornumbers div{
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-top: -2px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .mainconadd .inputtitle {
+        width: 18rem;
+    }
+
+    .mainconadd .textarea {
+        width: 18rem;
+    }
+    .textcolor{
+        width: 18rem;
+    }
+    .backgroundcolor{
+        width: 18rem;
+    }
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maincon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.emailcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 22rem;
+    
+}
+.line{
+    height: 0.1rem;
+    width: 22rem;
+    background-color: grey;
+}
+.emailform button{
+    background-color: #3361cc;
+    color: white;
+    border: 0;
+    height: 2rem; 
+}
+.passwordcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 22rem;
+}
+.font{
+    font-size: 1.4rem;
+}
+.text-center{
+    font-size: 2rem;
+    color: #3361cc;
+}
+.logoutbtn{
+    width: 9rem;
+    height: 2.3rem;
+    background-color: #3361cc;
+    color: white;
+    padding-top: 0.3rem;
+    border-radius: 0.2rem;
+    margin-top: -1rem;
+    border: 0;
+}
+
+.fa-lock{
+    position: absolute;
+}
+.deleteaccount{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headercon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerconleft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerconleft img {
+  width: 2rem;
+  height: 2rem;
+  margin-top: -6px;
+}
+
+.headerconleft h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.headerconright {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerconright ul {
+  display: flex;
+  flex-direction: row;
+
+  list-style: none;
+}
+
+.headerconright li {
+  margin-right: 1rem;
+}
+
+.headerconright button {
+  outline: none;
+  border: 0;
+  background-color: black;
+  color: white;
+}
+
+.maincon h1 {
+  font-size: 3.5rem;
+  line-height: 3.7rem;
+}
+
+.para {
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  outline: none;
+  border: 0;
+  width: 9rem;
+  height: 2.3rem;
+  background-color: #3361cc;
+  color: white;
+  padding-top: 0.3rem;
+  border-radius: 0.2rem;
+  margin-top: -1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.secon {
+  margin-top: -2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 425px) {
+  .headerconright {
+    display: none;
+  }
+
+  .headerconleft {
+    position: absolute;
+    left: 1rem;
+  }
+
+  .maincon h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .cons {
+    margin-top: -2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    width: 21rem;
+  }
+
+  .secon {
+    margin-top: -2rem;
+  }
+
+  .bottom {
+    margin-bottom: 1rem
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamlines .lines {
+    height: 0.2rem;
+    width: 2.4rem;
+    background-color: black;
+    margin-bottom: 0.5rem;
+    position: relative;
+    left: 11rem;
+  }
+
+  .close img {
+    height: 3rem;
+    width: 3.4rem;
+    position: relative;
+    left: 11rem;
+    top: 0rem;
+  }
+
+  .listflex {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 12rem;
+    left: 12rem;
+  }
+
+  .listflex ul {
+    list-style: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .listflex li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .para1 {
+    margin-left: 3rem;
+    width: 18rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  .para2{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-top: -1rem;
+    margin-left: 0.4rem;
+  }
+  .midcon{
+    margin-top: -2rem;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  .headerconright {
+    display: none;
+  }
+
+  .headerconleft {
+    position: absolute;
+    left: 1rem;
+  }
+
+  .maincon h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .cons {
+    margin-top: -2rem;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.6rem;
+  }
+
+  .secon {
+    margin-top: -2rem;
+  }
+
+  .bottom {
+    margin-bottom: 1rem
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamlines .lines {
+    height: 0.2rem;
+    width: 2.4rem;
+    background-color: black;
+    margin-bottom: 0.5rem;
+    position: relative;
+    left: 9rem;
+  }
+
+  .close img {
+    height: 3rem;
+    width: 3.4rem;
+    position: relative;
+    left: 9rem;
+    top: 0rem;
+  }
+
+  .listflex {
+    position: absolute;
+    background-color: whitesmoke;
+    width: 12rem;
+    left: 10rem;
+  }
+
+  .listflex ul {
+    list-style: none;
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
+  .listflex li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .para1 {
+    margin-left: 3rem;
+    width: 18rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  .para2{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin-top: -1rem;
+    margin-left: 0.4rem;
+  }
+  .midcon{
+    margin-top: -2rem;
+  }
+
+}

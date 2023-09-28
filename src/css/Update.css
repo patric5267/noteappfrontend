@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bigcon {
+    position: sticky;
+    z-index: 1;
+    top: 1rem;
+}
+
+.mainconupdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.fa-trash-o {
+    font-size: 3rem;
+    color: red;
+    margin-top: 4px;
+}
+
+.editupdate {
+    font-size: 3rem;
+    color: orange;
+}
+
+.fa-info-circle {
+    font-size: 3rem;
+    color: white;
+    margin-top: 4px;
+}
+
+.titledescon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlecon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlecon input {
+    width: 22rem;
+}
+
+.descon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textdes {
+    width: 78rem;
+    height: 28rem;
+}
+
+.colorupdate {
+    border: 1px solid black;
+    width: 78rem;
+    height: 4rem;
+}
+
+.textcolorupdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textcolorupdate div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4rem;
+    margin-top: -7px;
+}
+
+.backcolorupdate {
+    border: 1px solid red;
+    width: 78rem;
+    height: 4rem;
+}
+
+.backupdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.backupdate div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 4rem;
+    margin-top: -7px;
+}
+
+.smallconupdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-radius: 2rem;
+}
+
+.model {
+    width: 20rem;
+    height: 9rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .backcolorupdate{
+        width: 56rem;
+    }
+    .colorupdate{
+        width: 56rem;
+    }
+    .textdes{
+        width: 56rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .textdes {
+        width: 43rem;
+    }
+
+    .colorupdate {
+        width: 43rem;
+    }
+
+    .backcolorupdate {
+        width: 43rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .titlecon {
+        flex-direction: column;
+    }
+
+    .descon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textdes {
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .colorupdate {
+        width: 22rem;
+    }
+
+    .backcolorupdate {
+        width: 22rem;
+    }
+
+    .smallconupdate {
+        width: 21rem;
+    }
+
+    .fa-info-circle {
+        margin-left: -3rem;
+        margin-top: 4px;
+    }
+
+    .fa-trash-o {
+        margin-top: 4px;
+    }
+
+    .editupdate {
+        margin-left: -2rem;
+    }
+    .textcolorupdate div {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 4rem;
+        margin-top: -7px;
+    }
+    .backupdate div {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 4rem;
+        margin-top: -7px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .textdes {
+        width: 19rem;
+    }
+
+    .titlecon input {
+        width: 19rem;
+    }
+
+    .colorupdate {
+        width: 19rem;
+    }
+
+    .backcolorupdate {
+        width: 19rem;
+    }
+
+    .smallconupdate {
+        width: 19rem;
+    }
+    .textcolorupdate div {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 4rem;
+        margin-top: -7px;
+    }
+    .backupdate div {
+        width: 1.4rem;
+        height: 1.4rem;
+        border-radius: 4rem;
+        margin-top: -7px;
+    }
+}

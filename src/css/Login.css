@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   max-height: 100%;
+}
+.maincon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5rem;
+}
+.maincon img{
+    width: 5rem;
+    height: 5rem;
+}
+.maincon form{
+    display: flex;
+    flex-direction: column;
+}
+.maincon input{
+    width: 18rem;
+    height: 2.3rem;
+    padding-left: 0.5rem;
+    outline-color: #3361cc;
+    border: 1px solid;
+    border-radius: 2px;
+}
+.loginbtn{
+    outline: none;
+    border: 0;
+    width: 18rem;
+    height: 2.3rem;
+    background-color: #3361cc;
+    color: white;
+}
